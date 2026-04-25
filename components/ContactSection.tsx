@@ -195,7 +195,7 @@ export default function ContactSection() {
               {[
                 { icon: MapPin, label: "Office", value: "Salem, Tamil Nadu — 636001, India" },
                 { icon: Mail, label: "Email", value: "safzzoswp@gmail.com" },
-                { icon: Phone, label: "Phone", value: "+91 77084 60702" },
+                { icon: Phone, label: "Phone", value: "+91 8072029539" },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex gap-4 items-center">
                   <div className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0" style={{ background: "rgba(75,92,196,0.07)" }}>

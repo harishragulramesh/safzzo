@@ -4,12 +4,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://safzzo.com"),
   title: {
-    default: "Safzzo SaaS | Enterprise Software Solutions in Salem, Tamil Nadu",
-    template: "%s | Safzzo SaaS",
+    default: "safzzo | Enterprise Software Solutions in Salem, Tamil Nadu",
+    template: "%s | safzzo",
   },
   icons: {
       icon: [
-        { url: '/favicon.ico' },
+        { url: '/safzzo.ico' },
+
         // Optional: Add a png version if you have one
         { url: '/safzzo-design-swp-b.png', type: 'image/png' }, 
       ],
@@ -33,9 +34,9 @@ export const metadata: Metadata = {
     "software as a service India",
     "enterprise solutions Tamil Nadu",
   ],
-  authors: [{ name: "Safzzo SaaS", url: "https://safzzo.com" }],
-  creator: "Safzzo SaaS",
-  publisher: "Safzzo SaaS",
+  authors: [{ name: "safzzo", url: "https://safzzo.com" }],
+  creator: "safzzo",
+  publisher: "safzzo",
   robots: {
     index: true,
     follow: true,
@@ -51,25 +52,25 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://safzzo.com",
-    siteName: "Safzzo SaaS",
-    title: "Safzzo SaaS | Enterprise Software Solutions — Salem, Tamil Nadu",
+    siteName: "safzzo",
+    title: "safzzo | Enterprise Software Solutions — Salem, Tamil Nadu",
     description:
       "Enterprise-grade SaaS platforms, custom ERP, CRM, and cloud solutions built in Salem, Tamil Nadu. Powering Indian businesses with intelligent software.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/safzzo-design-swp-b.png",
         width: 1200,
         height: 630,
-        alt: "Safzzo SaaS — Enterprise Software Solutions",
+        alt: "safzzo — Enterprise Software Solutions",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Safzzo SaaS | Enterprise Software Solutions",
+    title: "safzzo | Enterprise Software Solutions",
     description:
       "Enterprise SaaS solutions built in Salem, Tamil Nadu. ERP, CRM, cloud platforms for Indian businesses.",
-    images: ["/og-image.png"],
+    images: ["/safzzo-design-swp-b.png"],
     creator: "@safzzo",
   },
   alternates: {
@@ -95,7 +96,7 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Safzzo SaaS",
+    name: "safzzo",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
     description:
@@ -115,7 +116,7 @@ export default function RootLayout({
         addressCountry: "IN",
       },
       url: "https://safzzo.com",
-      telephone: "+91-XXXXXXXXXX",
+      telephone: "+91-8072029539",
       email: "hello@safzzo.com",
     },
   };
@@ -146,8 +147,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/safzzo.ico" />
+        <link rel="apple-touch-icon" href="/safzzo.ico" />
         <link rel="manifest" href="/site.webmanifest" />
         <script
           type="application/ld+json"

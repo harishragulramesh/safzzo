@@ -37,7 +37,7 @@ export default function FeaturesSection() {
                   <div><span style={{color:"#7C3AED"}}>const</span> <span style={{color:"#4B5CC4"}}>revenue</span> <span style={{color:"#555"}}>=</span> <span style={{color:"#D4891A"}}>₹12.4L</span></div>
                   <div><span style={{color:"#7C3AED"}}>const</span> <span style={{color:"#4B5CC4"}}>clients</span> <span style={{color:"#555"}}>=</span> <span style={{color:"#15803D"}}>50</span></div>
                   <div><span style={{color:"#7C3AED"}}>const</span> <span style={{color:"#4B5CC4"}}>uptime</span> <span style={{color:"#555"}}>=</span> <span style={{color:"#D4891A"}}>&apos;99.9%&apos;</span></div>
-                  <div className="pt-1 text-xs" style={{color:"rgba(0,0,0,0.2)"}}>// Safzzo SaaS — Salem, TN</div>
+                  <div className="pt-1 text-xs" style={{color:"rgba(0,0,0,0.2)"}}>// safzzo — Salem, TN</div>
                   <div><span style={{color:"#7C3AED"}}>export default</span> <span style={{color:"#4B5CC4"}}>Platform</span><span style={{color:"#555"}}>()</span></div>
                   <div className="flex items-center gap-2 pt-2">
                     <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"/>
