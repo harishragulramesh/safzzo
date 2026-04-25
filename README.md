@@ -10,24 +10,6 @@ A full production-ready Next.js 14 + TypeScript + Tailwind CSS website with:
 - ⚡ Custom animated cursor, typewriter hero, floating 3D orb
 - 🇮🇳 India-first: GST, Razorpay, Tamil/Hindi mentions
 
-## Quick Start
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000)
-
-## Pages
-
-| Route | Description |
-|---|---|
-| `/` | Homepage (Hero, Services, Features, About, Testimonials, Contact) |
-| `/products` | Product listing + 3-step checkout |
-| `/sitemap.xml` | Auto-generated sitemap |
-| `/robots.txt` | SEO robots file |
-
 ## SEO Checklist
 
 - [x] Title & meta description on every page
@@ -39,9 +21,6 @@ Open [http://localhost:3000](http://localhost:3000)
 - [x] Semantic HTML (h1, h2, section, nav, footer)
 - [x] Alt text ready for images
 - [x] Mobile-friendly (Google CWV optimised)
-- [ ] Add Google Search Console verification in `layout.tsx`
-- [ ] Replace og-image.png placeholder
-- [ ] Update phone number and address
 
 ## Tech Stack
 
@@ -52,9 +31,3 @@ Open [http://localhost:3000](http://localhost:3000)
 - **Icons**: Lucide React
 - **Fonts**: Clash Display + DM Sans (Google Fonts)
 
-## Company Info
-
-**Safzzo Software as a Service**  
-Salem, Tamil Nadu — 636001, India  
-hello@safzzo.com
-"# safzzo" 
